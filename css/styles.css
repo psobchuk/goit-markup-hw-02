@@ -55,6 +55,7 @@
   letter-spacing: 0.02em;
 }
 
+.header-link.active,
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-txt-color);
@@ -171,4 +172,29 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
+}
+
+/* Проекти */
+  .category-button {
+    background-color: var(--light-bgc);
+  }
+
+  .category-button.active-button {
+    background-color: var(--accent-bgc);
+    color: var(--light-txt-color);
+  }
+
+  .project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+
+.project-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt-color);
 }
