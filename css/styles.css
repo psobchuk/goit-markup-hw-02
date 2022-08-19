@@ -38,7 +38,6 @@ body {
 /* Хедер */
 .header-logo {
   font-family: var(--secondary-font);
-  font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
@@ -102,7 +101,6 @@ body {
 
 /* Особливості */
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -110,7 +108,6 @@ body {
 }
 
 .features-item-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -118,7 +115,6 @@ body {
 }
 
 .features-item-desc {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -135,7 +131,6 @@ body {
 }
 
 .team-item-desc {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -149,9 +144,7 @@ body {
 }
 
 .footer-logo {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
+  font-family: var(--secondary-font);
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
@@ -163,7 +156,6 @@ body {
 }
 
 .map-link {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -173,12 +165,17 @@ body {
 
 .mail-link,
 .tel-link {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--contacts-txt-color);
   font-style: normal;
+}
+
+.map-link:hover,
+.mail-link:hover,
+.tel-link:hover {
+  color: var(--accent-txt-color);
 }
 
 /* Проекти */
@@ -195,14 +192,12 @@ body {
 }
 
 .project-name {
-  font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
 }
 
 .project-type {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
