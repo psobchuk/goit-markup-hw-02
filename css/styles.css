@@ -78,6 +78,7 @@ body {
 
 .hero-button {
   background-color: var(--accent-bgc);
+  font-family: inherit;
   color: var(--light-txt-color);
 }
 
@@ -181,6 +182,7 @@ body {
 /* Проекти */
 .category-button {
   background-color: var(--light-bgc);
+  font-family: inherit;
 }
 
 .category-button.active-button,
