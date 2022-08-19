@@ -80,6 +80,10 @@
   color: var(--light-txt-color);
 }
 
+.hero-button:hover {
+  cursor: pointer;
+}
+
 /* Приховування заголовку */
 .visually-hidden {
   border: 0;
@@ -175,16 +179,17 @@
 }
 
 /* Проекти */
-  .category-button {
-    background-color: var(--light-bgc);
-  }
+.category-button {
+  background-color: var(--light-bgc);
+}
 
-  .category-button.active-button {
-    background-color: var(--accent-bgc);
-    color: var(--light-txt-color);
-  }
+.category-button:hover,
+.category-button.active-button {
+  background-color: var(--accent-bgc);
+  color: var(--light-txt-color);
+}
 
-  .project-name {
+.project-name {
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
