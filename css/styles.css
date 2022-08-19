@@ -9,6 +9,7 @@
   --accent-txt-color: #2196f3;
   --light-txt-color: #ffffff;
   --dark-txt-color: #000000;
+  --contacts-txt-color: rgba(255, 255, 255, 0.6);
 
   /* Кольори фону */
   --main-bgc: #ffffff;
@@ -18,7 +19,7 @@
 }
 
 /* Стилі body */
-.body {
+body {
   font-family: var(--main-font);
   color: var(--main-txt-color);
   background-color: var(--main-bgc);
@@ -75,12 +76,14 @@
   text-transform: uppercase;
   color: var(--main-bgc);
 }
+
 .hero-button {
   background-color: var(--accent-bgc);
   color: var(--light-txt-color);
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   cursor: pointer;
 }
 
@@ -174,7 +177,7 @@
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contacts-txt-color);
   font-style: normal;
 }
 
@@ -183,10 +186,12 @@
   background-color: var(--light-bgc);
 }
 
+.category-button.active-button,
 .category-button:hover,
-.category-button.active-button {
+.category-button:focus {
   background-color: var(--accent-bgc);
   color: var(--light-txt-color);
+  cursor: pointer;
 }
 
 .project-name {
