@@ -94,6 +94,8 @@ body {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
   color: var(--light-txt-color);
 }
 
@@ -147,7 +149,7 @@ body {
 }
 
 .team-item-desc {
-  font-size: 16px;
+  font-weight: 500;
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
@@ -201,6 +203,9 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
+  line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
+  color: var(--main-txt-color);
 }
 
 .category-button.active-button,
@@ -218,7 +223,6 @@ body {
 }
 
 .project-type {
-  font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--secondary-txt-color);
