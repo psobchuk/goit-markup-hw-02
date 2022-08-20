@@ -118,7 +118,6 @@ body {
 }
 
 .features-item-desc {
-  font-weight: 700;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -149,6 +148,7 @@ body {
 
 .footer-logo {
   font-family: var(--secondary-font);
+  font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
@@ -186,6 +186,7 @@ body {
 .category-button {
   background-color: var(--light-bgc);
   font-family: inherit;
+  font-weight: 500;
 }
 
 .category-button.active-button,
