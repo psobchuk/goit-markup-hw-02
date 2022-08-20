@@ -38,6 +38,7 @@ body {
 /* Хедер */
 .header-logo {
   font-family: var(--secondary-font);
+  font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
@@ -79,6 +80,7 @@ body {
 .hero-button {
   background-color: var(--accent-bgc);
   font-family: inherit;
+  font-weight: 700;
   color: var(--light-txt-color);
 }
 
@@ -102,6 +104,7 @@ body {
 
 /* Особливості */
 .section-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -109,6 +112,7 @@ body {
 }
 
 .features-item-title {
+  font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -116,6 +120,7 @@ body {
 }
 
 .features-item-desc {
+  font-weight: 700;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -194,6 +199,7 @@ body {
 }
 
 .project-name {
+  font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
