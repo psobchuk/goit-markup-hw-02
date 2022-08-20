@@ -54,7 +54,7 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-txt-color);
 }
 
 .header-contacts {
@@ -62,13 +62,15 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
-  color: #757575;
+  color: var(--secondary-txt-color);
 }
 
 .header-link.active,
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,
+.header-contacts.active,
+.header-contacts:hover,
+.header-contacts:focus {
   color: var(--accent-txt-color);
 }
 
